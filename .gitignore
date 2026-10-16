@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+vendor/
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Build files
+build/
+dist/
+coverage/
+
+# IDE and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
